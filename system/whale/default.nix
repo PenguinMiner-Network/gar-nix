@@ -18,7 +18,7 @@
     enable = true;
   };
 
-  services.jellyseer = {
+  services.jellyseerr = {
     enable = true;
   };
 
