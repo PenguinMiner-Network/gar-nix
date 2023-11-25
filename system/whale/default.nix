@@ -92,4 +92,6 @@
       options = ["allow_other" "moveonenospc=true" "category.create=mfs" "use_ino" "dropcacheonclose=true" "posix_acl=true"];
     };
   };
+
+  system.stateVersion = "24.05";
 }
