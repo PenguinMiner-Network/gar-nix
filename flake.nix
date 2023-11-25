@@ -8,13 +8,13 @@
 
     impermanence.url = "github:nix-community/impermanence";
 
-    sops-nix.url = "github:Mic92/sops-nix";
+    # sops-nix.url = "github:Mic92/sops-nix";
   };
 
   outputs = {
     self,
     nixpkgs,
-    sops-nix,
+    # sops-nix,
     ...
   } @ inputs: let
     forEachSystem = f:
@@ -59,7 +59,7 @@
                 networking.hostName = lib.mkDefault name;
               })
               (./system + "/${name}")
-              (sops-nix + "/modules/sops")
+              # (sops-nix + "/modules/sops")
               (./common/system + "/${class}.nix")
             ];
         });

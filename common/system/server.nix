@@ -11,7 +11,7 @@
     ./features/users.nix
     ./features/sudo.nix
     ./features/openssh.nix
-    ./features/sops.nix
+    # ./features/sops.nix
     ./features/command-not-found.nix
     ./features/endlessh-go.nix
   ];
