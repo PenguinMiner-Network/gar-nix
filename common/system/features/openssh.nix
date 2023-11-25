@@ -12,7 +12,7 @@
       6969
     ];
     settings = {
-      PermitRootLogin = false;
+      PermitRootLogin = "no";
       PasswordAuthentication = false;
     };
   };
